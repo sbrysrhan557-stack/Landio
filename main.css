@@ -1961,5 +1961,17 @@ footer .copyright .links .credit a {
   .service-taps-content {
     grid-template-columns: 1fr;
   }
+  footer .links .social {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  .copyright .links {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    justify-content: space-between;
+  }
 }
 /* End Media Screen  */
